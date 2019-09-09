@@ -1,0 +1,1 @@
+fever_full_binary_train_claim_labelling.jsonl and fever_full_binary_dev_claim_labelling.jsonl contains equal number of true positives and negatives
