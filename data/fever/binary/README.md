@@ -1,0 +1,1 @@
+* This dataset is created using fever_3.json, where labels "Support" and "Refute" are treated as "related" i.e 0 and "NEI" is treated as "non-related" i.e 1
