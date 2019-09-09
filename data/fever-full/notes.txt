@@ -1,0 +1,1 @@
+dev.sentences.p5.s5.jsonl contains true docs as well as predicted docs. This was created to test sentence retrie. and claim classification individually.
