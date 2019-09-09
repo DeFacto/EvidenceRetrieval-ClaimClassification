@@ -1,0 +1,21 @@
+
+# Getting elmo like embeddings
+
+bert-serving-start -pooling_strategy NONE -model_dir /tmp/english_L-12_H-768_A-12/
+
+bert-serving-start -pooling_strategy NONE -max_seq_len 454 -model_dir /home/kkuma12s/github/bert-as-service/uncased_L-12_H-768_A-12
+
+
+bert-serving-start -pooling_strategy NONE -max_seq_len 256 -model_dir /home/kkuma12s/github/bert-as-service/multi_cased_L-12_H-768_A-12 -num_worker=4
+
+
+
+
+
+bert-serving-start -pooling_strategy NONE -max_seq_len 30 -model_dir /home/kkuma12s/github/bert-as-service/uncased_L-12_H-768_A-12
+
+bert-serving-start -cpu  -max_batch_size 16 -pooling_strategy NONE -max_seq_len 30 -model_dir uncased_L-12_H-768_A-12
+
+// This concatenates list of pooling layers and provides sentence embedding
+
+bert-serving-start -pooling_layer -4 -3 -2 -1 -model_dir /home/kkuma12s/github/bert-as-service/uncased_L-12_H-768_A-12

@@ -1,0 +1,1 @@
+* All datasets are same as used in LSTM, except ```train_fever_rej.pkl``` and ```test_fever_rej.pkl``` In these datasets ```sentences``` having length less than 3 are ignored because some sentences are only punctuations such as ```  (``` due to which ELMO function breaks.

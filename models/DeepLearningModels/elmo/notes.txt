@@ -1,0 +1,11 @@
+
+All these were used to train the sentence retrieval and claim classifer indepdently. Moreover, sentence retireval and claim classification dataset were consist of equal number of true positives and true negatives.
+
+test_claim_elmo_emb_fever_full_binary_dev.pkl, test_sents_elmo_emb_fever_full_binary_dev.pkl,
+train_claim_elmo_emb_fever_full_binary_train.pkl, train_sents_elmo_emb_fever_full_binary_train.pkl
+
+
+However, now we need to evaluate model on complete fever data, therefore we cannot assume of equal number of true positve and true negative. Therefore, we need to create another elmo embeddings named as:
+test_claim_elmo_emb_fever_full_binary_sent_ret.pkl and test_sents_elmo_emb_fever_full_binary_sent_ret.pkl 
+
+Note: both the embeddings are moved to /scratch/kkuma12s/elmo_embeddings  due to disk space issue
