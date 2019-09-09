@@ -1,0 +1,1 @@
+* Train and test datasets were created in the ratio of 0.9 and 0.1 respectively and validation ratio was done using k-fold validation. While for TFIDF, WMD and Vspace split ratio of train, validation and test set was 0.6, 0.2, 0.2 respectively

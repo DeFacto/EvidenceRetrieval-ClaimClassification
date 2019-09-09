@@ -1,0 +1,1 @@
+All datasets are same as present in ```data``` directory. However, validation and train set of each dataset is combined as "train_set" and later on they are splitted using k-fold cross validation

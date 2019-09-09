@@ -1,0 +1,1 @@
+all the trained_models of lstm are moved to local computer in github/Proof_extraction/samePathOfLstmModel
