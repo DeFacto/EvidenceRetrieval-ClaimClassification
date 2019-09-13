@@ -1,0 +1,1 @@
+In this package, Sentence retrieval and Claim classification approaches are trained and testing using ```Simple LSTM with word2vec```, ```Simple LSTM with ELMo```, and ```Simple LSTM with BERT embeddings```
