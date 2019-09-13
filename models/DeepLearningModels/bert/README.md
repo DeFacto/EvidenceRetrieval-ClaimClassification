@@ -37,3 +37,9 @@ test_complete_pipeline.py
 ```
 get_final_results.py
 ```
+
+# Obtain Bert Embeddings
+
+* BERT embeddings were obtained using [getting-elmo-like-contextual-word-embedding](https://github.com/hanxiao/bert-as-service#getting-elmo-like-contextual-word-embedding)
+
+* Model used for embeddings: ```BERT-Base, Multilingual Cased (New, recommended): 104 languages, 12-layer, 768-hidden, 12-heads, 110M parameters```
