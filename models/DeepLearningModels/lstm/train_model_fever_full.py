@@ -18,7 +18,7 @@ from keras.utils import np_utils
 from sklearn.metrics import f1_score, precision_score, recall_score
 
 from lstm.preprocess_new import preProcessing 
-from lstm.test_model_new import testModel 
+from lstm.check_model_results import testModel 
 
 config = tf.ConfigProto(device_count = {'GPU': 2} )
 # config = tf.ConfigProto("/device:GPU:0")
