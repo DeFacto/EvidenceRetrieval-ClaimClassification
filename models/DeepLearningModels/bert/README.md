@@ -1,4 +1,4 @@
-# For training and testing sentence retrieval and claim classification models
+# For training and testing sentence retrieval and claim classification models on FEVER Original Set
 
 Following script is used:
 
