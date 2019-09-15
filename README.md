@@ -11,9 +11,9 @@ In this project, different methods for evidence retrieval and Claim Classificati
 To run classical methods such as Vector Space, TF-IDF, and WMD execute:
 ```
 python -m feature_extraction.script_name
-
-Like
-
+```
+Example:
+```
 python -m feature_extraction.feature_extractor
 ```
 
