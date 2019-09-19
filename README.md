@@ -26,6 +26,6 @@ To run deep learning methods, following steps are considered: [Deep Learning Met
   author       = "Ramesh Kumar",
   year         = "2019",
   type         = "Master's Thesis",
-  school       = "Hochschule Bonn-Rheim-Sieg"
+  school       = "Hochschule Bonn-Rhein-Sieg"
 }
 ```
