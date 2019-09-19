@@ -18,3 +18,14 @@ python -m feature_extraction.feature_extractor
 ```
 
 To run deep learning methods, following steps are considered: [Deep Learning Methods](https://github.com/DeFacto/EvidenceRetrieval-ClaimClassification/tree/master/models/DeepLearningModels)
+
+#### How to cite
+```
+@mastersthesis{ramesh2019-defacto,
+  title        = "Evidence Extraction for Fact Validation using Neural Network Architectures",
+  author       = "Ramesh Kumar",
+  year         = "2019",
+  type         = "Master's Thesis",
+  school       = "Hochschule Bonn-Rheim-Sieg"
+}
+```
